@@ -18,7 +18,7 @@ $factory->define(Product::class, function (Faker $faker) {
         'product_stock' => '10',
         'remaining_stock' => '10',
         'feature_image' => 'product.png',
-        'product_images' => '["product.png"]',
+        'product_images' => '["product.png","product.png"]',
         'product_description' => $faker->name,
         'metatitle' => $faker->unique()->word,
         'slug' => $faker->unique()->name,
